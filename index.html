@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="landing-text">
+        <h1>Jorge Morales</h1>
+        <h6>Aspiring Front-End Developer</h6>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="assets/IMG_4382.jpg" alt="Profile Image" />
+        </div>
+
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Me</h6>
+          </div>
+
+          <p>
+            Front-end web developer with a background in education. Recently earned a certificate in full stack development from UCLA’s Extension Coding Bootcamp. In the bootcamp, I learned new skills in HTML, CSS, JavaScript, jQuery, HTTP requests, Rest API's, AJAX, Babel, Webpack, Moment.js, Node.js, MySQL, MongoDB, IndexedDB and React.js. Passionate about building functional user-friendly responsive websites coupled with a mobile-first mentality. Very organized and have a strong work ethic as I was able to earn two Bachelor’s degrees all while being employed. Very flexible, trainable and more than excited to apply my new skills in a collaborative team all while continuing to learn and grow.
+          </p>
+
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="https://github.com/jmorales113" class="icon-link">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jorge-morales-b1221577/" class="icon-link">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="assets/JorgeResume.pdf" class="icon-link">
+                  <i class="far fa-file"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Skills</h1>
+        </div>
+
+        <div class="my-skills">
+          <div class="skill" data-aos="fade-in" data-aos-delay="300">
+            <div class="icon-container">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h1>HTML</h1>
+          </div>
+
+          <div class="skill" data-aos="fade-in" data-aos-delay="600">
+            <div class="icon-container">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h1>CSS</h1>
+          </div>
+
+          <div class="skill" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h1>JavaScript</h1>
+          </div>
+
+          <div class="skill" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <img src="https://img.icons8.com/ios/50/000000/jquery.png" />
+            </div>
+            <h1>Jquery</h1>
+          </div>
+
+          <div class="skill" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <i class="fab fa-node"></i>
+            </div>
+            <h1>Node.js</h1>
+          </div>
+
+          <div class="skill" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <i class="fab fa-react"></i>
+            </div>
+            <h1>React.js</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>View some of my recent work</h6>
+          <h1 class="group-text">Group Projects</h1>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+            <img class="image-one" src="assets/Weather.jpg" alt=" Weather-or-Not"/>
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+            <a href="https://jmorales113.github.io/Weather-or-Not/">
+              <h1 class="margin">Weather-or-Not</h1>
+            </a>
+            </br>
+            <p class="margin">Weather or not is an app that will help you find events based on your location and the weather conditions. Are you bored and don't know what to do for the day? Then input your city in the search box and see what's happening in your area! Weather or Not will let you know where to go and what to wear!</p>
+            </br>
+            <p class="margin">Technologies Used: HTML, CSS, JavaScript, Eventful API, Google Maps API, Open Weather API and Materialize CSS Framework for Styling</p>
+              </br>
+               <a href="https://github.com/jmorales113/Weather-or-Not" class="cta margin">GitHub Repository</a> 
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+            <img src="assets/CoFit-19.jpg" alt=" CoFit-19"/>
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+            <a href="https://guarded-beach-20937.herokuapp.com/">
+              <h1>CoFit-19</h1>
+            </a>
+            </br>
+            <p>During this historical pandemic, people are being forced to stay at home. While at home people are looking for things to do. Enter CoFit-19. CoFit-19 is a play on words (COVID-19). It allows those who are interested in being fit during this time to have access to tools that will make them successful.</p>
+            </br>
+            <p>Technologies Used: HTML, CSS, JavaScript, Handlebars, Node.js, MySQL, Serialize, Passport/Authentication, Passport, Passport-local, Nutrionix API, Express, Express-handlebars, Express-mysql-session, Express-session, Bcrypt, Path and Pure CSS framework for styling.</p>
+               <a href="https://github.com/jmorales113/CoFit-19" class="cta">GitHub Repository</a> 
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+            <img src="assets/ClubHouse.jpg" alt="ClubHouse"/>
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+            <a href="https://serene-sea-67556.herokuapp.com/">
+              <h1>ClubHouse</h1>
+            </a>
+            </br>
+            <p>During this historical pandemic, people are being forced to stay at home. While at home people are looking for things to do. Enter CoFit-19. CoFit-19 is a play on words (COVID-19). It allows those who are interested in being fit during this time to have access to tools that will make them successful.</p>
+            </br>
+            <p>Technologies Used: HTML, CSS, JavaScript, React.js, JSX, Bcryptjs, Query-string, Dotenv, Express, HTTP, Passport, Socket.io, Body-parser, Concurrently, Jsonwebtoken, Mongoose, MongoDB, Validator, Axios, Jwt-decode, Prop-types, Redux, Styled-components and React-Bootstrap for styling.</p>
+               <a href="https://github.com/jmorales113/ClubHouse" class="cta">GitHub Repository</a> 
+          </div>
+        </div>
+
+         <div class="container">
+        <div class="section-heading">
+          <h1 class="individual-text">Individual Projects</h1>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+            <img class="image-two" src="assets/Notes.PNG" alt="Notes App"/>
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+            <a href="https://jmorales-notes.netlify.app">
+              <h1 class="margin-one">Notes App</h1>
+            </a>
+            </br>
+            <p class="margin-one">A notes application for saving your notes so you never forget! Add, remove and save your notes! You can add a body to your note title and also filter your notes to find them faster and sort your notes by last edited, recently created and alphabetically.</p>
+            </br>
+            <p class="margin-one">Technologies Used: HTML, CSS, JavaScript, Local Storage, Moment, Babel and Webpack</p>
+              </br>
+               <a href="https://github.com/jmorales113/Notes-App" class="cta margin-one">GitHub Repository</a> 
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+            <img class="image-two" src="assets/Todo.PNG" alt="Todo"/>
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+            <a href="https://jmorales-todo.netlify.app/">
+              <h1 class="margin-one">Todo App</h1>
+            </a>
+            </br>
+            <p class="margin-one">A Todo application for keeping track of your tasks or things you need to get done! You can add todos and remove todos. Also, you can filter your todos alphabetically to find a todo more quickly. Lastly, you can check-off the todos you already completed and hide them if you do not want to remove them by checking-off the "hide completed" checkbox.</p>
+            </br>
+            <p class="margin-one">Technologies Used: HTML, CSS, JavaScript, Local Storage, Moment, Babel and Webpack</p>
+               <a href="https://github.com/jmorales113/Todo-App" class="cta margin-one">GitHub Repository</a> 
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+            <img src="assets/hangman.PNG" alt="Hangman"/>
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+            <a href="https://jmorales-hangman.netlify.app/">
+              <h1 class="margin-one">Hangman Game</h1>
+            </a>
+            </br>
+            <p class="margin-one">Hangman game built with Object-Oriented Programming and DOM manipulation. Try to guess the two-letter word within 5 guesses! Simply type the letters you want to guess with your keyboard. Click on the button to start a new game which will generate a new two-letter word!</p>
+            </br>
+            <p class="margin-one">Technologies Used: HTML, CSS, JavaScript, Babel, and Webpack</p>
+               <a href="https://github.com/jmorales113/Hangman-Game" class="cta margin-one">GitHub Repository</a> 
+          </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-down" data-aos-delay="300">
+          <h1>Education</h1>
+          <h6>UCLA's Extension Coding Bootcamp Certificate</h6>
+          <h6>Bachelor of Science in Communicative Disorders & Deaf Education</h6>
+          <h6>Bachelor of Arts in Sociology</h6>
+        </div>
+        <!-- <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+            <ul>
+                <li class="date" data-date="2011 - Present">
+                    <h1>Google</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        Lorem, ipsum dolor sit amet consectetur
+                    </p>
+                </li>
+                <li class="date" data-date="2008 - 2011">
+                    <h1>Facebook</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        Lorem, ipsum dolor sit amet consectetur
+                    </p>
+                </li>
+                <li class="date" data-date="2002 - 2007">
+                    <h1>Microsoft</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        Lorem, ipsum dolor sit amet consectetur
+                    </p>
+                </li>
+            </ul>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's work together</h6>
+        </div>
+
+        <form action="" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name..." required/>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email..." required/>
+          <label for="subject">Subject:</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <p>&copy; 2020 Jorge Morales (818) 644-1942 jmorales113@gmail.com</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
