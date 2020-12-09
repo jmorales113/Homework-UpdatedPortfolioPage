@@ -504,6 +504,10 @@ label {
   font-size: 1.4rem;
 }
 
+.margin-two {
+  margin-left: 150px;
+}
+
 /*End footer*/
 
 /*Start media queries*/
