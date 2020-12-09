@@ -23,7 +23,7 @@ MIT
 
 ## Deployed Portfolio
 
-https://jmorales113.github.io/Portfolio/
+https://portfolio-jmorales113.netlify.app/
 
 ![portfolio1](https://user-images.githubusercontent.com/57970306/88614742-42303d80-d045-11ea-8828-58f43d1f2012.PNG)
 ![portfolio2](https://user-images.githubusercontent.com/57970306/88614746-44929780-d045-11ea-81bb-1fb00990fb60.PNG)
